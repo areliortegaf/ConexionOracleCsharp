@@ -1,0 +1,12 @@
+C:\Users\asortega\source\repos\OracleCon\OracleCon\bin\Debug\OracleCon.exe.config
+C:\Users\asortega\source\repos\OracleCon\OracleCon\bin\Debug\OracleCon.exe
+C:\Users\asortega\source\repos\OracleCon\OracleCon\bin\Debug\OracleCon.pdb
+C:\Users\asortega\source\repos\OracleCon\OracleCon\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.csprojResolveAssemblyReference.cache
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.Form1.resources
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.Properties.Resources.resources
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.csproj.GenerateResource.Cache
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.csproj.CoreCompileInputs.cache
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.exe
+C:\Users\asortega\source\repos\OracleCon\OracleCon\obj\Debug\OracleCon.pdb
+C:\Users\asortega\source\repos\OracleCon\OracleCon\bin\Debug\Oracle.DataAccess.dll
