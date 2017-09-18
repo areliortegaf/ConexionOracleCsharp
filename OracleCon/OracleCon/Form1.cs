@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
-//using Oracle.DataAccess.Client; --con el 12
-//referiencia: http://o7planning.org/en/10509/connecting-to-oracle-database-using-csharp-without-oracle-client
+//
 
 namespace OracleCon
 {
@@ -31,7 +30,7 @@ namespace OracleCon
         public void conexion()
         {
 
-            string host = "xxx.xxx.xxx";
+            string host = "localhost";
             string port = "1521";
             string sid = "pdborcl";
             string password = "hr";
@@ -44,18 +43,15 @@ namespace OracleCon
             conn.Open();
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "SELECT * FROM emp";
+            cmd.CommandText = "select job from emp where empno = '7839'";
             cmd.CommandType = CommandType.Text;
             OracleDataReader dr = cmd.ExecuteReader();
             int count = 0;
-            while (dr.Read())
-            {
-                resultado = resultado + dr.GetString(count);
-                count++;
-            }
+            dr.Read();
+            
             if(resultado != null || resultado != "")
             {
-                label2.Text = "Conexion Exitosa";
+                label2.Text = dr[0].ToString();
             }
             else
             {
